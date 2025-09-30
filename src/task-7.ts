@@ -1,5 +1,5 @@
 function getMessage(): Promise<string> {
-  return new Promise<string>((resolve) => {
+  return new Promise((resolve) => {
     setTimeout(() => {
       resolve("Hello from TS");
     }, 1000);
